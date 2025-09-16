@@ -30,3 +30,4 @@ node_modules/
 *.gz
 *.sql.gz
 *.sql
+.idea
