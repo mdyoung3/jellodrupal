@@ -1,0 +1,38 @@
+name: jellobelt
+description: "jellobelt theme based on <a href='https://www.drupal.org/project/radix' target='_blank'>Radix 6.x</a> and Bootstrap 5.x"
+screenshot: screenshot.png
+'alt text': 'jellobelt theme screenshot'
+core_version_requirement: ^11
+engine: twig
+type: theme
+'base theme': radix
+starterkit: true
+'interface translation project': jellobelt
+'interface translation server pattern': themes/custom/jellobelt/translations/%language.po
+regions:
+  navbar_branding: 'Navbar branding'
+  navbar_left: 'Navbar left'
+  navbar_right: 'Navbar right'
+  header: Header
+  content: Content
+  page_bottom: 'Page bottom'
+  footer: Footer
+libraries:
+  - jellobelt/style
+ckeditor5-stylesheets:
+  - build/css/main.style.css
+libraries-extend:
+  core/drupal.ajax:
+    - jellobelt/drupal.ajax
+  core/drupal.checkbox:
+    - jellobelt/drupal.checkbox
+  core/drupal.message:
+    - jellobelt/drupal.message
+  core/drupal.progress:
+    - jellobelt/drupal.progress
+  clientside_validation_jquery/cv.jquery.validate:
+    - jellobelt/jquery.validate
+version: 6.0.2
+project: radix
+datestamp: 1746711574
+generator: 'radix_starterkit:6.0.2'
