@@ -1,0 +1,25 @@
+uuid: 00ea5c76-2904-4766-84f7-1492a8831cfd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jellobelt
+_core:
+  default_config_hash: h_w9rZaiotmx9orHI8kf4HAA3oawMYH5qtWQSb-p0IY
+id: jellobelt_branding
+theme: jellobelt
+region: navbar_branding
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

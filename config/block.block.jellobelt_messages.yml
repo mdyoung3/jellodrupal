@@ -1,0 +1,22 @@
+uuid: 7f15129a-247e-4024-bee9-e0a0efe2f4da
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jellobelt
+_core:
+  default_config_hash: V7BOQCbZCfBHi3tuWuMbzJN_7IBMTDQjZqws1kPDxkg
+id: jellobelt_messages
+theme: jellobelt
+region: header
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

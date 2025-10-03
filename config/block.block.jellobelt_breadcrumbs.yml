@@ -1,0 +1,22 @@
+uuid: 4fd7e9ff-2529-4119-b01f-64fc169f8b4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jellobelt
+_core:
+  default_config_hash: 3UrFUR121VWlHYhSRjzXbCRS3okYNG3tADRGPy1L1vk
+id: jellobelt_breadcrumbs
+theme: jellobelt
+region: header
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

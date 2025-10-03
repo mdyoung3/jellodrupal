@@ -1,0 +1,20 @@
+uuid: f0c1d37a-d36e-463c-a88e-092d7606600d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jellobelt
+_core:
+  default_config_hash: o5xwkdIE4m4mh73SI2WZB3DA-sKen36OyQ1PxnFZq1k
+id: jellobelt_local_actions
+theme: jellobelt
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: fea4354e-5225-477d-a840-b84865c4a038
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jellobelt
+_core:
+  default_config_hash: OU24t6Z1fOUkahC2YEf_hXphCiOcG3YZFfkZyyYUuL0
+id: jellobelt_content
+theme: jellobelt
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
